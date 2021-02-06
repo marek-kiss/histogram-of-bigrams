@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = "sk.mkiss.bigramhistogram.MainKt"
+mainClassName = "sk.mkiss.interview.bigramhistogram.MainKt"
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"

@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
 
     FileReader(args[0]).use {
         val histogram = BigramHistogram.from(it)
-        histogram.forEach { bigram, occurence -> println("\"$bigram\" $occurence")}
+        histogram.forEach { (bigram, occurrence) -> println("\"$bigram\" $occurrence")}
     }
 
 }
